@@ -1,12 +1,3 @@
-# Membuat List
-print("_"*45)
-cth_list = [5, "enam", 7,8,0,True]
-print("ini adalah list:")
-print(cth_list)
-print("\n")
-# Mengedintifikasi elemen list
-print("elemen kedua dari list tersebut adalah ", cth_list [1])
-
 # Membuat matriks list 
 matriks_list = [[7,8,9],
                 [10,11,12]]
@@ -17,7 +8,7 @@ print("\n")
 
 
 import numpy as np
-# Membuat Array
+#Membuat Array
 cth_array = np.array([7,8,9,10,11])
 print("ini adalah array:")
 print(cth_array)
@@ -28,4 +19,15 @@ matriks_array =np.array ([[-2,1,-1],
                   [-2,1,2]])
 print("ini adalah matriks dari array")
 print(matriks_array)
-print("elemen matriks baris ketiga kolom kedua: ", matriks_array[2][1])
+print("\n")
+print("Elemen baris pertama kolom pertama dari matriks tersebut adalah : ",matriks_array[0][0])
+print("Elemen baris kedua   kolom pertama dari matriks tersebut adalah :", matriks_array[1][0])
+print("Elemen baris keriga  kolom pertama dari matriks tersebut adalah :", matriks_array[2][0])
+print("\n")
+print("Elemen baris pertama kolom kedua   dari matriks tersebut adalah : ",matriks_array[0][1])
+print("Elemen baris kedua   kolom kedua   dari matriks tersebut adalah :", matriks_array[1][1])
+print("Elemen baris ketiga  kolom kedua   dari matriks tersebut adalah : ",matriks_array[2][1])
+print("\n")
+print("Elemen baris kedua   kolom ketiga  dari matriks tersebut adalah : ",matriks_array[1][2])
+print("Elemen baris ketiga  kolom ketiga  dari matriks tersebut adalah : ",matriks_array[2][2])
+print("Elemen baris pertama kolom ketiga  dari matriks tersebut adalah :", matriks_array[0][2])
